@@ -1,7 +1,7 @@
 #	Python based Lindenmayer system Explorer
 
-##	This GUI based toolbox is designed to either generate new or modify
-##	existing Lindemayer systems/grammars. 
+##	This GUI based toolbox for python 2.7 is designed to either 
+##	generate new or modify existing Lindemayer systems/grammars. 
 
 Lindenmayer System Generator:
     Using the Generator you can generate predefined Lindenmayer systems 
