@@ -32,7 +32,7 @@ Version 1.0 by Michael Lindner
 University of Reading, 2017
 Center for Integrative Neuroscience and Neurodynamics
 
-Copyright (c) 2017, Michael Lindner
+Copyright (c) 2017, Michael Lindner and James Douglas Saddy
 
 All rights reserved.
 
