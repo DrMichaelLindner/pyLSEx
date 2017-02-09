@@ -1,6 +1,8 @@
-#	Python based Lindenmayer system Explorer
+# ![Alt text](pyLSEx_LOGO.bmp?raw=true "Title")
 
-##	This GUI based toolbox for python 2.7 is designed to either generate new or modify existing Lindenmayer systems/grammars. 
+##	Lindenmayer system Explorer for Python
+
+This GUI based toolbox for python 2.7 is designed to either generate new or modify existing Lindenmayer systems/grammars. 
 
 Lindenmayer System Generator:
     Using the Generator you can generate predefined Lindenmayer systems 
