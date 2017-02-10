@@ -19,4 +19,4 @@ in the User Manual (pdf) or by pressing the help button on the GUI menubar.
 **[Download pyLSEx](https://github.com/LSEx/pyLSEx)**
 
 Author: Michael Lindner    
-Contact: ![contact email](contact.png?raw=true "contact")
+Contact: ![contact email](contact.png?raw=true "contact email")
