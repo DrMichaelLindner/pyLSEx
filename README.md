@@ -21,3 +21,4 @@ in the User Manual (pdf) or by pressing the help button on the GUI menubar.
 
 
 Author: Michael Lindner    
+Contact: ![contact email](contact.png?raw=true "contact email")
