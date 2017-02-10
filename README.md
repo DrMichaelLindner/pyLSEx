@@ -18,3 +18,4 @@ specified in the Github/LSEx/LSEx.m [Wiki](https://github.com/LSEx/pyLSEx/wiki),
 in the User Manual (pdf) or by pressing the help button on the GUI menubar.
 
 Author: Michael Lindner
+Contact: l-s-ex@gmx.co.uk
