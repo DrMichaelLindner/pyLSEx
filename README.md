@@ -14,8 +14,8 @@ Lindenmayer System Modifier:
     system with chains of m other ones. 
     
 See detailed description about the usage and the parameters that can be 
-specified in the Github/LSEx/LSEx.m [Wiki](https://github.com/LSEx/pyLSEx/wiki), 
-in the User Manual (pdf) or by pressing the help button on the GUI menubar.
+specified in the [Wiki](https://github.com/LSEx/pyLSEx/wiki), in the User
+Manual (pdf) or by pressing the help button on the GUI menubar.
 
 **[Download pyLSEx](https://github.com/LSEx/pyLSEx)**
 
