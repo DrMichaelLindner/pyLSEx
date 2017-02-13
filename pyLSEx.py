@@ -28,35 +28,17 @@ Dependencies:
 
 For help and support feel free to contact: l-s-ex@gmx.co.uk
 
+pyLSEx by Michael Lindner and Jamesd Douglas Saddy is licensed
+under CC BY 4.0
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY;
+
 Version 1.0 by Michael Lindner 
 University of Reading, 2017
 Center for Integrative Neuroscience and Neurodynamics
 
-Copyright (c) 2017, Michael Lindner and James Douglas Saddy
 
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-   * Redistributions of source code must retain the above copyright
-     notice, this list of conditions and the following disclaimer.
-   * Redistributions in binary form must reproduce the above copyright
-     notice, this list of conditions and the following disclaimer in
-     the documentation and/or other materials provided with the distribution
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
 
 """
 
@@ -1181,6 +1163,9 @@ class AboutMsg(wx.Frame):
         s +=  (os.linesep + '')
         s +=  (os.linesep + 'Enjoy playing around with this tool!')
         s +=  (os.linesep + '')
+        s +=  (os.linesep + 'pyLSEx by Michael Lindner and Jamesd Douglas Saddy is licensed')
+        s +=  (os.linesep + 'under CC BY 4.0.')
+        s +=  (os.linesep + '')
         s +=  (os.linesep + 'This program is distributed in the hope that it will be useful, ')
         s +=  (os.linesep + 'but WITHOUT ANY WARRANTY!')
         s +=  (os.linesep + '') 
@@ -1301,32 +1286,12 @@ class LSGhelp(wx.Frame):
         s +=  (os.linesep + 'After setting up all parameters, you simply need to press the')
         s +=  (os.linesep + 'generate grammar button.')
         s +=  (os.linesep + '')
+        s +=  (os.linesep + '')	
+        s +=  (os.linesep + 'pyLSEx by Michael Lindner and Jamesd Douglas Saddy is licensed')
+        s +=  (os.linesep + 'under CC BY 4.0.')
         s +=  (os.linesep + '')
-        s +=  (os.linesep + 'Copyright (c) 2017, Michael Lindner and James Douglas Saddy')
-        s +=  (os.linesep + '')
-        s +=  (os.linesep + 'All rights reserved.')
-        s +=  (os.linesep + '')
-        s +=  (os.linesep + 'Redistribution and use in source and binary forms, with or without')
-        s +=  (os.linesep + 'modification, are permitted provided that the following conditions are')
-        s +=  (os.linesep + 'met:')
-        s +=  (os.linesep + '')
-        s +=  (os.linesep + '   * Redistributions of source code must retain the above copyright')
-        s +=  (os.linesep + '     notice, this list of conditions and the following disclaimer.')
-        s +=  (os.linesep + '   * Redistributions in binary form must reproduce the above copyright')
-        s +=  (os.linesep + '     notice, this list of conditions and the following disclaimer in')
-        s +=  (os.linesep + '     the documentation and/or other materials provided with the distribution')
-        s +=  (os.linesep + '')
-        s +=  (os.linesep + 'THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"')
-        s +=  (os.linesep + 'AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE')
-        s +=  (os.linesep + 'IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE')
-        s +=  (os.linesep + 'ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE')
-        s +=  (os.linesep + 'LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR')
-        s +=  (os.linesep + 'CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF')
-        s +=  (os.linesep + 'SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS')
-        s +=  (os.linesep + 'INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN')
-        s +=  (os.linesep + 'CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)')
-        s +=  (os.linesep + 'ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE')
-        s +=  (os.linesep + 'POSSIBILITY OF SUCH DAMAGE.')
+        s +=  (os.linesep + 'This program is distributed in the hope that it will be useful, ')
+        s +=  (os.linesep + 'but WITHOUT ANY WARRANTY!')
         s +=  (os.linesep + '')
         s +=  (os.linesep + 'by Michael Lindner and Doug Saddy')
         s +=  (os.linesep + 'm.lindner@reading.ac.uk')
@@ -1438,32 +1403,11 @@ class LSMhelp(wx.Frame):
         s +=  (os.linesep + 'After setting up all parameters, you simply need to press the')
         s +=  (os.linesep + 'Modify L-system button.')
         s +=  (os.linesep + '')
+        s +=  (os.linesep + 'pyLSEx by Michael Lindner and Jamesd Douglas Saddy is licensed')
+        s +=  (os.linesep + 'under CC BY 4.0.')
         s +=  (os.linesep + '')
-        s +=  (os.linesep + 'Copyright (c) 2017, Michael Lindner and James Douglas Saddy')
-        s +=  (os.linesep + '')
-        s +=  (os.linesep + 'All rights reserved.')
-        s +=  (os.linesep + '')
-        s +=  (os.linesep + 'Redistribution and use in source and binary forms, with or without')
-        s +=  (os.linesep + 'modification, are permitted provided that the following conditions are')
-        s +=  (os.linesep + 'met:')
-        s +=  (os.linesep + '')
-        s +=  (os.linesep + '   * Redistributions of source code must retain the above copyright')
-        s +=  (os.linesep + '     notice, this list of conditions and the following disclaimer.')
-        s +=  (os.linesep + '   * Redistributions in binary form must reproduce the above copyright')
-        s +=  (os.linesep + '     notice, this list of conditions and the following disclaimer in')
-        s +=  (os.linesep + '     the documentation and/or other materials provided with the distribution')
-        s +=  (os.linesep + '')
-        s +=  (os.linesep + 'THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"')
-        s +=  (os.linesep + 'AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE')
-        s +=  (os.linesep + 'IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE')
-        s +=  (os.linesep + 'ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE')
-        s +=  (os.linesep + 'LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR')
-        s +=  (os.linesep + 'CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF')
-        s +=  (os.linesep + 'SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS')
-        s +=  (os.linesep + 'INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN')
-        s +=  (os.linesep + 'CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)')
-        s +=  (os.linesep + 'ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE')
-        s +=  (os.linesep + 'POSSIBILITY OF SUCH DAMAGE.')
+        s +=  (os.linesep + 'This program is distributed in the hope that it will be useful, ')
+        s +=  (os.linesep + 'but WITHOUT ANY WARRANTY!')
         s +=  (os.linesep + '')
         s +=  (os.linesep + 'by Michael Lindner and Doug Saddy')
         s +=  (os.linesep + 'm.lindner@reading.ac.uk')
