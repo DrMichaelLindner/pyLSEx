@@ -13,10 +13,10 @@ This GUI based toolbox for python 2.7 is designed to either generate new or modi
     building rules to iteratively replace chains of n characters of the 
     system with chains of m other ones. 
     
-See detailed description about the usage in the [Wiki](https://github.com/LSEx/pyLSEx/wiki), 
+See detailed description about the usage in the [Wiki](https://github.com/DrMichaelLindner/pyLSEx/wiki), 
 in the User Manual (pdf) or by pressing the help button on the GUI menubar. 
 
-**[Download pyLSEx](https://github.com/LSEx/pyLSEx)**
+**[Download pyLSEx](https://github.com/DrMichaelLindner/pyLSEx)**
 
 
 
