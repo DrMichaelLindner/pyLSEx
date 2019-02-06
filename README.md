@@ -19,6 +19,14 @@ in the User Manual (pdf) or by pressing the help button on the GUI menubar.
 **[Download pyLSEx](https://github.com/DrMichaelLindner/pyLSEx)**
 
 
+## LICENCE
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License (GPLv3) as published
+by the Free Software Foundation;
 
-Author: Michael Lindner    
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.
+
+## AUTHOR
+Michael Lindner  
 Contact: ![contact email](contact.png?raw=true "contact email")

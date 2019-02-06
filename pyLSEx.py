@@ -28,17 +28,18 @@ Dependencies:
 
 For help and support feel free to contact: l-s-ex@gmx.co.uk
 
-pyLSEx by Michael Lindner and Jamesd Douglas Saddy is licensed
-under CC BY 4.0
+LICENCE
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License (GPLv3) as published
+by the Free Software Foundation;
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY;
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.
 
-Version 1.0 by Michael Lindner 
+AUTHOR
+Michael Lindner
 University of Reading, 2017
+School of Psychology and Clinical Language Sciences
 Center for Integrative Neuroscience and Neurodynamics
-
-
 
 """
 
