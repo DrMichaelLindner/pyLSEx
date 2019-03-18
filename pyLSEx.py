@@ -224,7 +224,7 @@ class LSEXgen(wx.Frame):
         # -----------------------------
         self.userdefined = False
         self.samplelist = ["Fibonacci", "Algea", "Thue-Morse", "Feigenbaum", "Cantor dust", "Pythagoras tree", "Koch curve", "Sierpinksi triangle", "User defined"]
-        self.rulelist = [[["0", "1"], ["1", "10"]], 
+        self.rulelist = [[["0", "1"], ["1", "01"]],
                   [["0", "1"], ["01", "0"]], 
                   [["0", "1"], ["01", "10"]], 
                   [["0", "1"], ["11", "01"]], 
@@ -262,9 +262,9 @@ class LSEXgen(wx.Frame):
         # -----------------------------
         stattext1 = wx.StaticText(self, -1, 'Select Lindenmayer system:', 
                                   (-1, -1), (-1, -1), wx.ALIGN_LEFT)
-        stattext2 = wx.StaticText(self, -1, 'Start value:', 
+        stattext2 = wx.StaticText(self, -1, 'Initial string:',
                                   (-1, -1), (-1, -1), wx.ALIGN_LEFT)
-        stattext3 = wx.StaticText(self, -1, 'Number of recursions :', 
+        stattext3 = wx.StaticText(self, -1, 'Number of iterations :',
                                   (-1, -1), (-1, -1), wx.ALIGN_LEFT)
         stattext4 = wx.StaticText(self, -1, 'Specify output folder :', 
                                   (-1, -1), (-1, -1), wx.ALIGN_LEFT)
@@ -533,7 +533,7 @@ class LSEXmod(wx.Frame):
         self.stattext1b = wx.StaticText(self, -1, self.loadinfo, (-1, -1), (-1, -1), wx.ALIGN_LEFT)
         self.stattext1b.SetForegroundColour((255,0,0))
         stattext2 = wx.StaticText(self, -1, 'Type of Replacement :', (-1, -1), (-1, -1), wx.ALIGN_LEFT)
-        stattext3 = wx.StaticText(self, -1, 'Number of recursions :', (-1, -1), (-1, -1), wx.ALIGN_LEFT)
+        stattext3 = wx.StaticText(self, -1, 'Number of iterations :', (-1, -1), (-1, -1), wx.ALIGN_LEFT)
         stattext4 = wx.StaticText(self, -1, 'Specify output folder :', (-1, -1), (-1, -1), wx.ALIGN_LEFT)
         stattext5 = wx.StaticText(self, -1, 'Output file prefix :', (-1, -1), (-1, -1), wx.ALIGN_LEFT)
         stattext6 = wx.StaticText(self, -1, '                              ', (-1, -1), (-1, -1), wx.ALIGN_LEFT)
@@ -696,7 +696,7 @@ class LSEXmod(wx.Frame):
             loadname = dialog.GetPath()
             G = pickle.load( open(loadname , "rb" ) )
         
-        dlg = TextEntryDialog(None, 'Input', 'Recursion of L-System you want to use? max:')
+        dlg = TextEntryDialog(None, 'Input', 'Iteration of L-System you want to use? max:')
         dlg.Center()
         dlg.SetValue(str(len(G)))
         if dlg.ShowModal() == wx.ID_OK:
@@ -1262,14 +1262,14 @@ class LSGhelp(wx.Frame):
         s +=  (os.linesep + '     results: 0020304230423000')
         s +=  (os.linesep + '')
         s +=  (os.linesep + '')
-        s +=  (os.linesep + 'The start value for the grammar generation is by default: 0 for')
+        s +=  (os.linesep + 'The initial string for the grammar generation is by default: 0 for')
         s +=  (os.linesep + 'for the predefined systems and for the user defined system it is')
         s +=  (os.linesep + 'the value (lefthand side) of the first rule!') 
-        s +=  (os.linesep + 'But the start vlaue can be changes changed individually.')
-        s +=  (os.linesep + 'IMPORTANT: The values in the "start values" field')
+        s +=  (os.linesep + 'But the initial string can be changes changed individually.')
+        s +=  (os.linesep + 'IMPORTANT: The values in the "initial strings" field')
         s +=  (os.linesep + 'need to be included within the rules you define!')
         s +=  (os.linesep + '')
-        s +=  (os.linesep + 'With the number of recursions you can specify how often the')
+        s +=  (os.linesep + 'With the number of iterations you can specify how often the')
         s +=  (os.linesep + 'rules should be used iteratively.')
         s +=  (os.linesep + '')
         s +=  (os.linesep + 'You need to specify an output folder by typing in a path or')
@@ -1386,7 +1386,7 @@ class LSMhelp(wx.Frame):
         s +=  (os.linesep + '     results: 0020304230423000')
         s +=  (os.linesep + '')
         s +=  (os.linesep + '')
-        s +=  (os.linesep + 'With the number of recursions you can specify how often the')
+        s +=  (os.linesep + 'With the number of iterations you can specify how often the')
         s +=  (os.linesep + 'rules should be used iteratively.')
         s +=  (os.linesep + '')
         s +=  (os.linesep + 'You need to specify an output folder by typing in a path or')
